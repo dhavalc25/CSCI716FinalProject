@@ -1,50 +1,48 @@
 =================================================================================
-I. Introduction:																				 		   					
+I. Introduction:				 		   					
 =================================================================================	
-
-Project Title:			    Euclidean Shortest Path Problem (CSCI-716)		 
-Team Members:			      Anuja Vane (asv1612@rit.edu),                                   	   						
-						            Dhaval Chauhan (dmc8686@rit.edu),                                   	
-						            Saylee Bhide (smb6390@rit.edu)	                                  
-								              Computer Science Department	   				
-								              Rochester Institute of Technology  				
-Developed in: 			    Java								   					
-Environment: 			      IntelliJ							   					
-Additional Toolkits: 	  Java Swing for developing the Graphical User Interface	                  
+Project Title:		Euclidean Shortest Path Problem (CSCI-716)		 
+Team Members:		Anuja Vane (asv1612@rit.edu),                                   	   							Dhaval Chauhan (dmc8686@rit.edu),                                 
+			Saylee Bhide (smb6390@rit.edu)	                                  
+				Computer Science Department	   				
+				Rochester Institute of Technology  				
+Developed in: 		Java								   					
+Environment: 		IntelliJ							   					
+Additional Toolkits: 	Java Swing for developing the Graphical User Interface	                  
 =================================================================================
 
 
 =================================================================================
-II. Files Included:																
+II. Files Included:
 =================================================================================
-PointO.java   																	
-	Class for storing the 2D Point												
-																				
-Obstacle.java																	
-	Class for storing an obstacle which is a list of 2D Points					
-																				
-learnSwing.java																	
-	Main Class that implements the GUI and calls the other java files			
-																				
-BruteForceConvexHulls.java														
-	Class that finds the Convex Hull for each polygon created by the User in the 
-	GUI																			
-																				
-InflateConvexPolygon.java														
-	Class for Inflating the polygon created by the User in the GUI				
-																				
-Vertex.java																		
-	Class for storing 2D Point Vertices of Visibility Graph						
-																				
-Graph.java																		
-	Class for storing the Visibility Graph attributes and helper functions		
-																				
-VisibilityGraph.java															
-	Class for finding the VisibilityGraph 										
-																				
-Dijkstras.java																	
-	Class to find Shortest Path between vertices using Dijkstras Shortest Path 	
-	Algorithm																	
+PointO.java   
+	Class for storing the 2D Point	
+	
+Obstacle.java	
+	Class for storing an obstacle which is a list of 2D Points
+	
+learnSwing.java	
+	Main Class that implements the GUI and calls the other java files	
+	
+BruteForceConvexHulls.java
+	Class that finds the Convex Hull for each polygon created by the User in 
+	the GUI	
+	
+InflateConvexPolygon.java	
+	Class for Inflating the polygon created by the User in the GUI	
+	
+Vertex.java			
+	Class for storing 2D Point Vertices of Visibility Graph	
+	
+Graph.java			
+	Class for storing the Visibility Graph attributes and helper functions	
+	
+VisibilityGraph.java	
+	Class for finding the VisibilityGraph 		
+	
+Dijkstras.java	
+	Class to find Shortest Path between vertices using Dijkstras Shortest 
+	Path Algorithm	
 =================================================================================
 
 
@@ -110,11 +108,9 @@ VI. Failure Scenarios:
 =================================================================================
 1. The Obstacles in the map are in close vicinity of each other.				
 																				
-2. The obstacles contain sharp edges.											
-																				
+2. The obstacles contain sharp edges.																
 3. The radius of the moving point does not fit in the path that leads to the 	
-	destination point.															
-																				
+	destination point.																	
 4. The start or the destination point lies within an obstacle.					
 =================================================================================
 
