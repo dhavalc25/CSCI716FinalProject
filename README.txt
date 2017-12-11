@@ -1,7 +1,8 @@
 =======================================================================================
 I. Introduction:															=======================================================================================
 Project Title:		Euclidean Shortest Path Problem (CSCI-716)		 
-Team Members:		Anuja Vane (asv1612@rit.edu),                                   	   								Dhaval Chauhan (dmc8686@rit.edu),                                   	
+Team Members:		Dhaval Chauhan (dmc8686@rit.edu),    
+			Anuja Vane (asv1612@rit.edu),                               	
 			Saylee Bhide (smb6390@rit.edu)	                                  
 				Computer Science Department	   				
 				Rochester Institute of Technology  				
