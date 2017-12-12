@@ -101,13 +101,12 @@ Main Class : learnSwing.java
 VI. Failure Scenarios:															
 =======================================================================================
 1. The Obstacles in the map are in close vicinity of each other.
+   The obstacles contain sharp edges.	
 
-2. The obstacles contain sharp edges.	
-
-3. The radius of the moving point does not fit in the path that leads to the 	
+2. The radius of the moving point does not fit in the path that leads to the 	
 	destination point.			
 	
-4. The start or the destination point lies within an obstacle.					
+3. The start or the destination point lies within an obstacle.					
 =======================================================================================
 
 
